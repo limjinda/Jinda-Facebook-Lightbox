@@ -1,0 +1,130 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.jinda-wrapper{
+	display: none;
+}
+
+.jinda-overlay-background{
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9998;
+}
+
+.jinda-content-block{
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 2px 3px 4px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 3px 6px rgba(0,0,0,0.2);
+	max-width: 300px;
+	padding: 15px 20px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 9999;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#jinda-close-button{
+	position: absolute;
+	top: -34px;
+	right: 0px;
+	background-color: #c82a53;
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: bold;
+	padding: 10px 25px 10px 25px;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-shadow: inset 0 -2px 4px rgba(0,0,0,0.3);
+	box-shadow: inset 0 -2px 4px rgba(0,0,0,0.3);
+}
+
+#jinda-close-button:hover{
+	background-color: #232323;
+	text-decoration: none;
+}
+
+.jinda-content-before-text{
+	font-size: 14px;
+	text-align: center;
+	margin: 0 auto 10px;
+	line-height: 1.55;
+	color: #232323;
+}
+
+.jinda-content-after-text{
+	font-size: 14px;
+	text-align: center;
+	margin: 10px auto 0px;
+	line-height: 1.55;
+	color: #232323;
+}
+
+.jinda-facebook-like-box{
+	display: block;
+	margin: 20px auto;
+}
+
+.jinda-facebook-like-box div,
+.jinda-facebook-like-box div > span,
+.jinda-facebook-like-box div > span > iframe{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	width: 100%;
+}
+
+.fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe {
+    width: 100% !important;
+}
+
+@media screen and (min-width: 480px){
+	.jinda-content-block{
+		max-width: 460px;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.jinda-content-block{
+		padding: 30px 25px;
+		max-width: 550px;
+	}
+	.jinda-content-before-text,
+	.jinda-content-after-text{
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

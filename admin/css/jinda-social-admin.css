@@ -1,0 +1,17 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.form-table tr td:first-child{
+	width: 400px;
+}
+
+.form-table tr td:first-child label{
+	font-weight: bold;
+}
+
+textarea.code-textarea{
+	background-color: #232323;
+	color: #FFFFFF;
+}
